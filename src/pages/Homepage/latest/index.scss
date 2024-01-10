@@ -1,0 +1,39 @@
+.latest {
+  padding: 85px 0px;
+
+  .latestText {
+    text-align: center;
+    .latest-p {
+      font-size: 14px;
+      color: #777;
+      padding-top: 10px;
+      line-height: 1.625rem;
+      font-weight: 300;
+    }
+    h3 {
+      font-size: 36px;
+      font-weight: 600;
+    }
+  }
+  .latest-p {
+    padding-bottom: 86px;
+  }
+  .swiper {
+    width: 1200px;
+
+    .latest-p1 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 5px 15px;
+      font-weight: 100;
+      width: 115px;
+      background-color: black;
+      color: white;
+      font-size: 14px;
+    }
+    .latest-p2 {
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+}

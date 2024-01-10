@@ -1,0 +1,124 @@
+.travel {
+  background-color: #f9f9ff;
+  padding: 85px 0px;
+  .travelText {
+    text-align: center;
+    padding-bottom: 85px;
+    .travel-p {
+      font-size: 14px;
+      color: #777;
+      padding-top: 10px;
+      line-height: 1.625rem;
+      font-weight: 300;
+    }
+    .travel-p1 {
+      font-size: 14px;
+      color: #777;
+      padding-top: 10px;
+      line-height: 1.625rem;
+      font-weight: 300;
+    }
+
+    .travel-h3 {
+      font-size: 36px;
+      font-weight: 700;
+    }
+  }
+  .btns {
+    display: flex;
+    justify-content: center;
+    .travel-btn {
+      background-color: #62bdfc;
+      padding: 13px 28px 13px 28px;
+      font-weight: 700;
+      border: none;
+      border-radius: 20px;
+      color: white;
+    }
+  }
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .card {
+    width: 530px;
+    height: 250px;
+
+    display: flex;
+    .card-left2 {
+      width: 210px;
+      background-image: url("https://preview.colorlib.com/theme/blogger/img/t2.jpg.webp");
+      background-repeat: no-repeat;
+      text-align: center;
+      margin-right: 16px;
+    }
+    .card-left4 {
+      width: 210px;
+      background-image: url("https://preview.colorlib.com/theme/blogger/img/t4.jpg");
+      background-repeat: no-repeat;
+      text-align: center;
+      margin-right: 16px;
+    }
+    .card-left3 {
+      width: 210px;
+      background-image: url("https://preview.colorlib.com/theme/blogger/img/t3.jpg");
+      background-repeat: no-repeat;
+      text-align: center;
+      margin-right: 16px;
+    }
+    .card-left {
+      width: 210px;
+      background-image: url("https://preview.colorlib.com/theme/blogger/img/t1.jpg.webp");
+      background-repeat: no-repeat;
+      text-align: center;
+      margin-right: 16px;
+    }
+    .travel-p2 {
+      font-size: 24px;
+      font-weight: 700;
+      background-color: black;
+      color: white;
+      padding: 18px 18px 5px 18px;
+
+      width: 77px;
+    }
+    .travel-p4 {
+      width: 77px;
+      font-weight: 100;
+      font-size: 14px;
+      color: white;
+      position: relative;
+      bottom: 1px;
+      background-color: black;
+      padding: 0px 18px 18px 18px;
+    }
+    .card-right {
+      width: 280px;
+      .card-right-icon {
+        display: flex;
+        font-size: 12px;
+        font-weight: 100;
+        color: #777777;
+        .card-p5 {
+          padding-left: 3px;
+
+          padding-right: 123px;
+        }
+        .card-p6 {
+          padding-left: 3px;
+        }
+      }
+      .travel-h4 {
+        font-size: 18px;
+        margin-bottom: 18px;
+      }
+      .travel-p3 {
+        font-size: 14px;
+        color: #777777;
+        margin-bottom: 16px;
+      }
+    }
+  }
+}

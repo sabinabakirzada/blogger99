@@ -1,0 +1,32 @@
+.footer {
+  padding-top: 100px;
+  padding-bottom: 85px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #222222;
+  .footer-left {
+    display: flex;
+    align-items: center;
+
+    font-size: 14px;
+    color: #777777;
+    .icon {
+      color: #69b4fd;
+    }
+  }
+  .footer-right {
+    color: white;
+    display: flex;
+    gap: 3px;
+    p {
+      font-size: 12px;
+      padding: 12px;
+      background-color: #111111;
+
+      &:hover {
+        cursor: pointer;
+        background-color: #007bff;
+      }
+    }
+  }
+}
