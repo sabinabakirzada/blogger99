@@ -31,7 +31,7 @@ const Homepage = () => {
         <meta name="description" content="This is Home Page" />
       </Helmet>
       <Toner />
-      <SuppliersCard data={data} />
+      <SuppliersCard data={data} getData={getData} />
       <Latest />
       <Travel />
     </div>

@@ -1,10 +1,9 @@
 import React from "react";
 import axios from "axios";
-import { Formik, Form, Field, ErrorMessage } from "formik";
+import { Formik, Form, Field } from "formik";
 import { SignupSchema } from "./schema";
 import "./index.scss";
 import { Helmet } from "react-helmet";
-import { Schema } from "yup";
 const NewsPage = () => {
   return (
     <div className=" news">

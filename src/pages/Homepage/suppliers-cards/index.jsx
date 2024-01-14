@@ -1,15 +1,16 @@
 import React from "react";
 import "./index.scss";
 import axios from "axios";
-const SuppliersCard = ({ data }) => {
-  const deleteSupplier = async (id, btn) => {
+const SuppliersCard = ({ data, getData }) => {
+  const deleteSupplier = async (id) => {
     try {
       await axios.delete(`https://northwind.vercel.app/api/suppliers/${id}`);
-      btn.parentElement.remove();
+      getData();
     } catch (error) {
       console.log(error);
     }
   };
+
   return (
     <div id="cards">
       <div className="container">
@@ -22,8 +23,8 @@ const SuppliersCard = ({ data }) => {
                   Address: {item.address?.street}, {item.address?.city}
                 </h3>
                 <button
-                  onClick={(event) => {
-                    deleteSupplier(item.id, event.target);
+                  onClick={() => {
+                    deleteSupplier(item.id);
                   }}
                 >
                   Delete
